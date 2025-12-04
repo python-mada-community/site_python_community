@@ -13,9 +13,13 @@
 <header>
     <nav>
         <a href="index.html" class="logo">COMMUNITY PYTHON</a>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">☰</label>
+
         <div class="menu">
-            <a href="index.html">Accueil</a>
-            <a class="active" href="apropos.html">À propos</a>
+            <a href="index.html" class="active">Accueil</a>
+            <a href="apropos.html">À propos</a>
             <a href="contact.html">Contact</a>
         </div>
     </nav>
@@ -25,79 +29,100 @@
 
 <!-- ---------------- ACCUEIL ---------------- -->
 <section id="Accueil" class="section">
+
     <div class="hero">
         <h1>Communauté Python</h1>
         <p>Apprendre, partager et évoluer ensemble dans le monde du code</p>
     </div>
 
     <div class="images-container">
-        <img src="Assets/FB_IMG_17636479840804247.jpg" alt="Illustration Python 1" class="hero-img1">
+        <img src="Assets/FB_IMG_17636479840804247.jpg" alt="Illustration Python" class="hero-img1">
         <img src="Assets/FB_IMG_17637714224724957.jpg" alt="Illustration Python 2" class="hero-img2">
-        
     </div>
+<br>
+<br>
+<br>
     <div class="CAR">
-        <P>DÉCOUVREZ NOTRE COMMUNAUTE PYTHON</P>
+        <p>DÉCOUVREZ NOTRE COMMUNAUTÉ PYTHON</p>
     </div>
-<hr class="ZERO">
+
+    <hr class="ZERO">
+
     <article class="white-box">
-        
-        <p class="ONE">Bienvenue dans notre communauté dédiée à l'apprentissage de Python et de la programmation ! 
+        <p class="ONE">
+            Bienvenue dans notre communauté dédiée à l'apprentissage de Python et de la programmation ! 
             Ici, nous croyons que chacun peut apprendre à coder, quel que soit son niveau de départ.
             Notre mission est de créer un espace simple, convivial et motivant pour progresser ensemble.
         </p>
 
-        <p class="TOW">Depuis notre création le <strong>2 mars 2022</strong>, nous rassemblons des passionnés, 
+        <p class="TOW">
+            Depuis notre création le <strong>2 mars 2022</strong>, nous rassemblons des passionnés, 
             des débutants curieux et des membres expérimentés prêts à partager leurs connaissances.
         </p>
 
-        <p class="FIRE">Que vous souhaitiez commencer la programmation ou approfondir vos compétences, 
-            vous êtes au bon endroit. Bienvenue parmi nous !</p>
-    </article>
-<hr class="UN">
-    <article class="info-box">
-        <div class="box0">
-            <img src="Assets/FB_IMG_17637714266220216.jpg"alt="fb" class="py-image">
-        </div>
-        <div class="box1">
-        <h2>Définition de Python</h2>
-        <p><strong>Python</strong> est un langage interprété et polyvalent créé par <strong>Guido Van Rossum</strong> en 1991.
-            Son nom provient du groupe humoristique <em>Monty Python</em>. Python est utilisé dans le web,
-            l’IA, la data science, l'automatisation et bien plus encore.
+        <p class="FIRE">
+            Que vous souhaitiez commencer la programmation ou approfondir vos compétences, 
+            vous êtes au bon endroit. Bienvenue parmi nous !
         </p>
+    </article>
+
+    <hr class="UN">
+
+    <article class="info-box">
+
+        <div class="box0">
+            <img src="Assets/FB_IMG_17637714266220216.jpg" alt="Logo Python" class="py-image">
         </div>
+
+        <div class="box1">
+            <h2>Définition de Python</h2>
+            <p>
+                <strong>Python</strong> est un langage interprété et polyvalent créé par 
+                <strong>Guido Van Rossum</strong> en 1991.
+                Son nom provient de la troupe humoristique <em>Monty Python</em>.  
+                Python est utilisé dans le web, l’IA, la data science, l'automatisation et bien plus encore.
+            </p>
+        </div>
+
         <div class="box2">
-        <h3>Caractéristiques principales</h3>
-        <ul>
-            <li>Syntaxe simple et lisible</li>
-            <li>Compatible Windows, Linux et macOS</li>
-            <li>Programmation orientée objet et fonctionnelle</li>
-            <li>Large écosystème de bibliothèques</li>
-            <li>Très utilisé en IA, data science et développement web</li>
-            <li>Communauté active et riche en ressources</li>
-        </ul>
+            <h3>Caractéristiques principales</h3>
+            <ul>
+                <li>Syntaxe simple et lisible</li>
+                <li>Compatible Windows, Linux et macOS</li>
+                <li>Programmation orientée objet et fonctionnelle</li>
+                <li>Large écosystème de bibliothèques</li>
+                <li>Très utilisé en IA, data science et développement web</li>
+                <li>Communauté active et riche en ressources</li>
+            </ul>
         </div>
+
     </article>
+
 </section>
 
 
-
-<!-- ---------------- APROPOS ---------------- -->
+<!-- ---------------- À PROPOS ---------------- -->
 <section id="Apropos" class="section">
-    <article class="white-bo">
-        <div class="droit">
-        
-        </div>
+
+    <article class="CONTENENT">
+        <div class="droit"></div>
+
         <div class="gauche">
-       <p>Notre communauté Python rassemble débutants et passionnés pour apprendre, partager et progresser ensemble.</p>
-        <a href="apropos.html" class="btn-more">En savoir plus ></a>
+            <p>
+                Notre communauté Python rassemble débutants et passionnés pour apprendre, 
+                partager et progresser ensemble.
+            </p>
+<BR>
+            <a href="apropos.html" class="btn-more">En savoir plus ></a>
         </div>
     </article>
-</section>
 
+</section>
 
 
 <!-- ---------------- CONTACT ---------------- -->
 <section id="Contact" class="section">
+
     <article class="contact-box">
         <h2>Contact</h2>
         <p>Si vous avez des questions ou des commentaires, n’hésitez pas à nous écrire.</p>
@@ -106,19 +131,21 @@
             <input type="text" name="nom" placeholder="Votre nom" required>
             <input type="email" name="email" placeholder="Votre email" required>
             <textarea name="message" placeholder="Votre message" required></textarea>
+
             <button type="submit" id="send">Envoyer</button>
         </form>
     </article>
+
 </section>
 
 </main>
 
 
-
 <!-- ---------------- FOOTER ---------------- -->
 <footer>
+    
     <p>Notre communauté est dédiée à l’apprentissage et au partage des connaissances en Python.</p>
-    <p>@2025 Communauté Python — Tous droits réservés.</p>
+    <br><p>© 2025 Communauté Python — Tous droits réservés.</p>
 </footer>
 
 </body>
