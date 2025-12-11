@@ -18,9 +18,10 @@
         <label for="menu-toggle" class="hamburger">☰</label>
 
         <div class="menu">
-            <a href="index.html" class="active">Accueil</a>
-            <a href="apropos.html">À propos</a>
-            <a href="contact.html">Contact</a>
+            <a href="#Accueil" class="active">Accueil</a>
+            <a href="#Apropos">À propos</a>
+            <a href="#offres" class="menu1">Nos offres</a>
+            <a href="#Contact">Contact</a>
         </div>
     </nav>
 </header>
@@ -29,7 +30,6 @@
 
 <!-- ---------------- ACCUEIL ---------------- -->
 <section id="Accueil" class="section">
-
     <div class="hero">
         <h1>Communauté Python</h1>
         <p>Apprendre, partager et évoluer ensemble dans le monde du code</p>
@@ -39,90 +39,67 @@
         <img src="Assets/FB_IMG_17636479840804247.jpg" alt="Illustration Python" class="hero-img1">
         <img src="Assets/FB_IMG_17637714224724957.jpg" alt="Illustration Python 2" class="hero-img2">
     </div>
-<br>
-<br>
-<br>
-    <div class="CAR">
-        <p>DÉCOUVREZ NOTRE COMMUNAUTÉ PYTHON</p>
-    </div>
-
-    <hr class="ZERO">
-
-    <article class="white-box">
-        <p class="ONE">
-            Bienvenue dans notre communauté dédiée à l'apprentissage de Python et de la programmation ! 
-            Ici, nous croyons que chacun peut apprendre à coder, quel que soit son niveau de départ.
-            Notre mission est de créer un espace simple, convivial et motivant pour progresser ensemble.
-        </p>
-
-        <p class="TOW">
-            Depuis notre création le <strong>2 mars 2022</strong>, nous rassemblons des passionnés, 
-            des débutants curieux et des membres expérimentés prêts à partager leurs connaissances.
-        </p>
-
-        <p class="FIRE">
-            Que vous souhaitiez commencer la programmation ou approfondir vos compétences, 
-            vous êtes au bon endroit. Bienvenue parmi nous !
-        </p>
-    </article>
-
-    <hr class="UN">
-
-    <article class="info-box">
-
-        <div class="box0">
-            <img src="Assets/FB_IMG_17637714266220216.jpg" alt="Logo Python" class="py-image">
-        </div>
-
-        <div class="box1">
-            <h2>Définition de Python</h2>
-            <p>
-                <strong>Python</strong> est un langage interprété et polyvalent créé par 
-                <strong>Guido Van Rossum</strong> en 1991.
-                Son nom provient de la troupe humoristique <em>Monty Python</em>.  
-                Python est utilisé dans le web, l’IA, la data science, l'automatisation et bien plus encore.
-            </p>
-        </div>
-
-        <div class="box2">
-            <h3>Caractéristiques principales</h3>
-            <ul>
-                <li>Syntaxe simple et lisible</li>
-                <li>Compatible Windows, Linux et macOS</li>
-                <li>Programmation orientée objet et fonctionnelle</li>
-                <li>Large écosystème de bibliothèques</li>
-                <li>Très utilisé en IA, data science et développement web</li>
-                <li>Communauté active et riche en ressources</li>
-            </ul>
-        </div>
-
-    </article>
-
 </section>
-
 
 <!-- ---------------- À PROPOS ---------------- -->
-<section id="Apropos" class="section">
-
-    <article class="CONTENENT">
-        <div class="droit"></div>
-
-        <div class="gauche">
-            <p>
-                Notre communauté Python rassemble débutants et passionnés pour apprendre, 
-                partager et progresser ensemble.
-            </p>
-<BR>
-            <a href="apropos.html" class="btn-more">En savoir plus ></a>
-        </div>
-    </article>
-
+<section id="Apropos" class="card section">
+    <div class="images12">
+        <img src="Assets/FB_IMG_17636479840804247.jpg" alt="images12" width="50%">
+    </div>
+    <div class="TEXT">
+    <h2>À propos</h2>
+    <p class="small"><strong>Qui sommes-nous ?</strong> Une communauté pour apprendre Python et la programmation, discuter et partager ses connaissances.</p>
+    <p class="small"><strong>Date de création :</strong> 2 mars 2022</p>
+    <p class="small"><strong>Créateur :</strong> Mahay Yaham</p>
+    <p class="small"><strong>Rejoignez-nous !</strong> Partagez, collaborez et inspirez-vous les uns les autres.</p>
+    </div>
 </section>
 
+<!-- ---------------- NOS OFFRES / GRID ---------------- -->
+<section id="offres" class="section">
+    <h2 style="text-align:center; margin-bottom:20px;">Nos offres</h2>
+    <div class="grid-sections">
+        <div class="card">
+            <h2>Cours</h2>
+            <p class="small">Parcours du niveau débutant à avancé avec exercices et projets concrets pour progresser rapidement en Python.</p>
+        </div>
+
+        <div class="card">
+            <h2>Certificat / Attestation</h2>
+            <p class="small">Obtenez une attestation ou un certificat numérique après validation de vos exercices et projets.</p>
+        </div>
+
+        <div class="card">
+            <h2>Événements communautaires</h2>
+            <p class="small">Participez à nos ateliers, meetups et hackathons pour apprendre, échanger et collaborer avec la communauté.</p>
+        </div>
+
+        <div class="card">
+            <h2>Projets communautaires</h2>
+            <p class="small">Rejoignez des équipes pour créer des applications concrètes et mettre vos compétences en pratique.</p>
+        </div>
+    </div>
+</section>
+<section id="temoignages"class="section">
+    <h2 style="text-align: center; margin-bottom: 30px;">Témoignages</h2>
+    <div class="grid-temoignages">
+        <div class="temoignage-card">
+            <p>"Grâce à cette communauté, j'ai appris Python rapidement et rencontré des personnes formidables."</p>
+              <h4>FANILO R</h4>
+        </div>
+        <div class="temoignage-card">
+            <p>"Les projets communautaires m' ont permis de mettre en pratique mes connaissances et d'ameliorer mon CV"</p>
+              <h4>ROVA F</h4> 
+        </div>
+        <div class="temoignage-card">
+            <p>"Les Cours sont clairs et les Événements m'ont beaucoup motivé à continuer à coder."</p>
+              <h4>VERO</h4>
+        </div>
+
+</section>
 
 <!-- ---------------- CONTACT ---------------- -->
 <section id="Contact" class="section">
-
     <article class="contact-box">
         <h2>Contact</h2>
         <p>Si vous avez des questions ou des commentaires, n’hésitez pas à nous écrire.</p>
@@ -135,17 +112,14 @@
             <button type="submit" id="send">Envoyer</button>
         </form>
     </article>
-
 </section>
 
 </main>
 
-
 <!-- ---------------- FOOTER ---------------- -->
 <footer>
-    
     <p>Notre communauté est dédiée à l’apprentissage et au partage des connaissances en Python.</p>
-    <br><p>© 2025 Communauté Python — Tous droits réservés.</p>
+    <p>© 2025 Communauté Python — Tous droits réservés.</p>
 </footer>
 
 </body>
