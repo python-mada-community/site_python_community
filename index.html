@@ -1,125 +1,201 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Communauté Python</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Community Python</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- ---------------- NAVBAR ---------------- -->
-<header>
-    <nav>
-        <a href="index.html" class="logo">COMMUNITY PYTHON</a>
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="logo">Community Python</div>
 
-        <input type="checkbox" id="menu-toggle">
-        <label for="menu-toggle" class="hamburger">☰</label>
+  <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" class="hamburger">☰</label>
 
-        <div class="menu">
-            <a href="#Accueil" class="active">Accueil</a>
-            <a href="#Apropos">À propos</a>
-            <a href="#offres" class="menu1">Nos offres</a>
-            <a href="#Contact">Contact</a>
-        </div>
-    </nav>
+  <nav class="menu">
+    <a href="#accueil">Accueil</a>
+    <a href="#apropos">À propos</a>
+    <a href="#cours">Cours</a>
+    <a href="#projets">Projets</a>
+    <a href="#contact" class="cta">Rejoindre</a>
+  </nav>
 </header>
 
-<main>
-
-<!-- ---------------- ACCUEIL ---------------- -->
-<section id="Accueil" class="section">
-    <div class="hero">
-        <h1>Communauté Python</h1>
-        <p>Apprendre, partager et évoluer ensemble dans le monde du code</p>
-    </div>
-
-    <div class="images-container">
-        <img src="Assets/FB_IMG_17636479840804247.jpg" alt="Illustration Python" class="hero-img1">
-        <img src="Assets/FB_IMG_17637714224724957.jpg" alt="Illustration Python 2" class="hero-img2">
-    </div>
+<!-- ================= HERO ================= -->
+<section id="accueil" class="hero">
+  <div class="hero-text">
+    <h1>Apprenez Python <span>Créez des projets concrets</span></h1>
+    <p>Une communauté conviviale pour apprendre, pratiquer et progresser ensemble.</p>
+    <a href="#cours" class="bouton">Commencer maintenant</a>
+  </div>
+  <img src="Assets/FB_IMG_17636479840804247.jpg" alt="Illustration Python">
 </section>
 
-<!-- ---------------- À PROPOS ---------------- -->
-<section id="Apropos" class="card section">
-    <div class="images12">
-        <img src="Assets/FB_IMG_17636479840804247.jpg" alt="images12" width="50%">
+<!-- ================= COURS ================= -->
+<section id="cours" class="section">
+  <h2>Cours Python</h2>
+
+  <div class="grid">
+    <div class="card">
+      <img src="Assets/FB_IMG_17637714266220216.jpg" alt="Cours débutant Python">
+      <h3>Débutant</h3>
+      <p>Apprenez les bases de Python : variables, boucles et conditions.</p>
+      <a href="#" class="bouton1">Commencer</a>
     </div>
-    <div class="TEXT">
-    <h2>À propos</h2>
-    <p class="small"><strong>Qui sommes-nous ?</strong> Une communauté pour apprendre Python et la programmation, discuter et partager ses connaissances.</p>
-    <p class="small"><strong>Date de création :</strong> 2 mars 2022</p>
-    <p class="small"><strong>Créateur :</strong> Mahay Yaham</p>
-    <p class="small"><strong>Rejoignez-nous !</strong> Partagez, collaborez et inspirez-vous les uns les autres.</p>
+
+    <div class="card">
+      <img src="Assets/FB_IMG_17636479840804247.jpg" alt="Cours pratique Python">
+      <h3>Pratique</h3>
+      <p>Exercices, mini-projets et défis pour consolider vos connaissances.</p>
+      <a href="#" class="bouton1">Voir les exercices</a>
     </div>
-</section>
 
-<!-- ---------------- NOS OFFRES / GRID ---------------- -->
-<section id="offres" class="section">
-    <h2 style="text-align:center; margin-bottom:20px;">Nos offres</h2>
-    <div class="grid-sections">
-        <div class="card">
-            <h2>Cours</h2>
-            <p class="small">Parcours du niveau débutant à avancé avec exercices et projets concrets pour progresser rapidement en Python.</p>
-        </div>
-
-        <div class="card">
-            <h2>Certificat / Attestation</h2>
-            <p class="small">Obtenez une attestation ou un certificat numérique après validation de vos exercices et projets.</p>
-        </div>
-
-        <div class="card">
-            <h2>Événements communautaires</h2>
-            <p class="small">Participez à nos ateliers, meetups et hackathons pour apprendre, échanger et collaborer avec la communauté.</p>
-        </div>
-
-        <div class="card">
-            <h2>Projets communautaires</h2>
-            <p class="small">Rejoignez des équipes pour créer des applications concrètes et mettre vos compétences en pratique.</p>
-        </div>
+    <div class="card">
+      <img src="Assets/FB_IMG_17636479897690264.jpg" alt="Progression Python">
+      <h3>Progression</h3>
+      <p>Créez vos propres projets et gagnez en autonomie.</p>
+      <a href="#" class="bouton1">Découvrir</a>
     </div>
-</section>
-<section id="temoignages"class="section">
-    <h2 style="text-align: center; margin-bottom: 30px;">Témoignages</h2>
-    <div class="grid-temoignages">
-        <div class="temoignage-card">
-            <p>"Grâce à cette communauté, j'ai appris Python rapidement et rencontré des personnes formidables."</p>
-              <h4>FANILO R</h4>
-        </div>
-        <div class="temoignage-card">
-            <p>"Les projets communautaires m' ont permis de mettre en pratique mes connaissances et d'ameliorer mon CV"</p>
-              <h4>ROVA F</h4> 
-        </div>
-        <div class="temoignage-card">
-            <p>"Les Cours sont clairs et les Événements m'ont beaucoup motivé à continuer à coder."</p>
-              <h4>VERO</h4>
-        </div>
-
+  </div>
 </section>
 
-<!-- ---------------- CONTACT ---------------- -->
-<section id="Contact" class="section">
-    <article class="contact-box">
-        <h2>Contact</h2>
-        <p>Si vous avez des questions ou des commentaires, n’hésitez pas à nous écrire.</p>
+<!-- ================= PROJETS ================= -->
+<section id="projets" class="section section-light">
+  <h2>Projets communautaires</h2>
 
-        <form class="contact-form">
-            <input type="text" name="nom" placeholder="Votre nom" required>
-            <input type="email" name="email" placeholder="Votre email" required>
-            <textarea name="message" placeholder="Votre message" required></textarea>
+  <div class="project-simple">
+    <img src="Assets/FB_IMG_17636479897690264.jpg" alt="Projet Python communautaire">
 
-            <button type="submit" id="send">Envoyer</button>
-        </form>
-    </article>
+    <div class="project-text">
+      <p>
+        Participez à des projets collaboratifs pour apprendre,
+        échanger et enrichir votre portfolio.
+      </p>
+      <a href="#" class="bouton1">Voir le projet</a>
+    </div>
+  </div>
 </section>
 
-</main>
+<!-- ================= ÉVÉNEMENTS ================= -->
+<section id="evenements" class="section">
+  <h2>Événements</h2>
 
-<!-- ---------------- FOOTER ---------------- -->
+  <div class="project-simple">
+    <img src="Assets/FB_IMG_17641701244804708.jpg" alt="Événement Python">
+
+    <div class="project-text">
+      <p>
+        Ateliers, sessions live et rencontres pour apprendre Python
+        avec la communauté.
+      </p>
+      <a href="#contact" class="bouton1">Participer</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CERTIFICATION ================= -->
+<section class="section section-light">
+  <h2>Certification</h2>
+
+  <div class="project-simple">
+    <img src="Assets/FB_IMG_17677280186261283.jpg" alt="Certificat Python">
+
+    <div class="project-text">
+      <p>
+        À la fin de votre parcours, vous recevez un certificat attestant
+        de vos compétences en Python et de votre participation active.
+      </p>
+      <a href="#contact" class="bouton1">Obtenir le certificat</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TÉMOIGNAGES ================= -->
+<section id="temoignages" class="section">
+  <h2>Témoignages</h2>
+
+  <div class="grid">
+    <div class="card">
+      <p>« Grâce à la communauté, j’ai appris les bases et réalisé mes premiers projets. »</p>
+      <strong>— Aïcha, Débutante</strong>
+    </div>
+
+    <div class="card">
+      <p>« Une communauté motivante avec des explications simples et efficaces. »</p>
+      <strong>— Moussa, Débutant</strong>
+    </div>
+
+    <div class="card">
+      <p>« Les projets communautaires m’ont aidée à progresser rapidement. »</p>
+      <strong>— Sarah, Apprenante</strong>
+    </div>
+  </div>
+</section>
+<a href="article.html" class="bouton1">voir article</a>
+<!-- ================= À PROPOS ================= -->
+<section id="apropos" class="section">
+  <div class="content">
+    <img src="Assets/FB_IMG_17636626921653037.jpg" alt="À propos de la communauté">
+
+    <div>
+      <h2>À propos</h2>
+      <p>
+        Python Communauté est une communauté dédiée à l’apprentissage de Python
+        et de la programmation.  
+        Fondée le <strong>2 mars 2022</strong> par
+        <strong>Rakotonoely Mahay Finaritra</strong>,
+        elle rassemble aujourd’hui plus de <strong>1 600 membres</strong>
+        autour du partage, de l’entraide et de la passion du code.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section section-light">
+  <div class="content">
+    <img src="Assets/FB_IMG_17677280266676855.jpg" alt="Contact Python Community">
+
+    <form class="contact-form">
+      <h2>Contact</h2>
+      <input type="text" placeholder="Nom" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit" class="bouton1">Envoyer</button>
+    </form>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
 <footer>
-    <p>Notre communauté est dédiée à l’apprentissage et au partage des connaissances en Python.</p>
-    <p>© 2025 Communauté Python — Tous droits réservés.</p>
+  <div class="footer-container">
+    <div class="footer-brand">
+      <h3>Community Python</h3>
+      <p>Apprendre Python ensemble à travers une communauté moderne et active.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Navigation</h4>
+      <a href="#accueil">Accueil</a>
+      <a href="#cours">Cours</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-info">
+      <h4>Informations</h4>
+      <p>Fondée par <strong>Rakotonoely Mahay Finaritra</strong></p>
+      <p>Depuis 2022</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    © 2025 Community Python — Tous droits réservés
+  </div>
 </footer>
 
 </body>

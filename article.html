@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le design responsive - Communauté Python</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="logo">Community Python</div>
+
+  <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" class="hamburger">☰</label>
+
+  <nav class="menu">
+    <a href="#accueil">Accueil</a>
+    <a href="#apropos">À propos</a>
+    <a href="#cours">Cours</a>
+    <a href="#projets">Projets</a>
+    <a href="#contact" class="cta">Rejoindre</a>
+  </nav>
+</header>
+
+  <!-- ARTICLE PRINCIPAL -->
+  <main class="article">
+    <h1>Le design responsive</h1>
+    <p class="date">Publié le 7 janvier 2026</p>
+
+    <img src="Assets/FB_IMG_17656188297701722.jpg" alt="Exemple design responsive" class="article-img">
+
+    <p>Les technologies numériques évoluent rapidement et les gens utilisent différents appareils pour naviguer sur Internet, comme les ordinateurs, téléphones, tablettes ou télévisions connectées. Le <strong>design responsive</strong> est une méthode qui permet aux sites web de s’adapter automatiquement à tous ces écrans et de rester faciles à utiliser.</p>
+
+    <h2>Définition du design responsive</h2>
+    <p>Le <strong>design responsive</strong> ou responsive web design est une technique de création de sites web dont la mise en page change automatiquement selon la taille de l’écran. Le contenu, les images et les boutons s’ajustent pour rester clairs et faciles à utiliser.</p>
+    <p>Contrairement aux sites fixes, un site responsive fonctionne sur tous les appareils avec une seule version du site.</p>
+
+    <h2>Description générale</h2>
+    <p>Le design responsive facilite la navigation et rend l’expérience utilisateur intuitive.</p>
+    <ul>
+      <li>Structure de la page (colonnes, blocs, menus)</li>
+      <li>Taille et orientation des images</li>
+      <li>Taille et espacement du texte</li>
+      <li>Boutons, formulaires et menus tactiles</li>
+    </ul>
+
+    <h2>Historique</h2>
+    <h3>Débuts du web</h3>
+    <p>Dans les années 1990 et 2000, les sites étaient conçus pour des ordinateurs fixes et difficiles à adapter.</p>
+
+    <h3>L’arrivée du mobile</h3>
+    <p>Avec les smartphones et tablettes, les tailles d’écran ont beaucoup changé. Les développeurs ont d’abord créé des sites mobiles séparés.</p>
+
+    <h3>La naissance du responsive</h3>
+    <p>En 2010, Ethan Marcotte a présenté le responsive web design avec trois idées principales : <strong>grilles fluides, images flexibles et media queries</strong>.</p>
+
+    <h3>Le responsive devient standard</h3>
+    <p>Depuis les années 2010, le responsive est devenu la norme. Google et les moteurs de recherche favorisent les sites adaptés aux mobiles.</p>
+
+    <h2>Principes techniques</h2>
+    <h3>Grilles fluides</h3>
+    <p>Les colonnes et blocs changent de taille selon la largeur de l’écran.</p>
+
+    <h3>Images flexibles</h3>
+    <p>Les images s’ajustent automatiquement pour ne pas dépasser l’écran et pour charger rapidement.</p>
+
+    <h3>Media queries</h3>
+    <p>Les media queries sont des règles CSS qui changent le style du site selon la taille de l’écran.</p>
+
+    <h3>Mobile-first</h3>
+    <p>On commence par créer le site pour les petits écrans et on l’adapte ensuite aux écrans plus grands.</p>
+
+    <h2>Exemples concrets</h2>
+    <h3>Site e-commerce</h3>
+    <p>Les produits apparaissent en grille sur ordinateur et en colonne sur téléphone avec des boutons tactiles adaptés.</p>
+
+    <h3>Site institutionnel</h3>
+    <p>Les informations importantes sont visibles en premier sur mobile, tandis que toutes les rubriques sont accessibles sur ordinateur.</p>
+
+    <h3>Blog ou site d’actualités</h3>
+    <p>Les articles passent d’une page multi-colonnes sur ordinateur à une colonne sur mobile.</p>
+
+    <h3>Exemple simple de code CSS</h3>
+    <code>
+body { font-size: 16px; }<br>
+@media (max-width: 768px) { body { font-size: 14px; } }
+    </code>
+
+    <h2>Avantages et limites</h2>
+    <ul>
+      <li><strong>Avantages :</strong> Navigation facile, site accessible, meilleur référencement, maintenance simple</li>
+      <li><strong>Limites :</strong> Performance à optimiser, compatibilité entre navigateurs, complexité pour certains designs</li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>Le design responsive est essentiel pour créer des sites web accessibles, performants et adaptés aux différents appareils.</p>
+
+    <a href="index.html" class="btn-accueil">Retour à l’accueil</a>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <h3>Community Python</h3>
+        <p>Apprendre Python ensemble grâce à des cours, projets et communauté.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <a href="index.html">Accueil</a>
+        <a href="cours.html">Cours</a>
+        <a href="projets.html">Projets</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-info">
+        <h4>Infos</h4>
+        <p>Créée par <strong>Mahay Yaham</strong></p>
+        <p>Depuis 2022</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Community Python — Tous droits réservés</p>
+    </div>
+  </footer>
+
+</body>
+</html>
